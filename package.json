@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "author": "Gorgony",
+  "main": "DockerGamesClient.js",
   "license": "ISC",
   "dependencies": {
     "ws": "^5.2.2"

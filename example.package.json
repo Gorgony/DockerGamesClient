@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "docker-games-client": "github:gorgony/DockerGamesClient#master"
+  }
+}

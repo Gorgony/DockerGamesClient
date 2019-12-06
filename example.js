@@ -1,4 +1,4 @@
-const { startMatch, BOT, DIRECTION } = require("./DockerGamesClient.js");
+const { startMatch, BOT, DIRECTION } = require("docker-games-client");
 
 function makeDecision(board, width, height, self, opponent){
     return DIRECTION.UP;

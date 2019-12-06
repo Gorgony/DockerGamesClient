@@ -16,7 +16,7 @@ const DIRECTION = {
 const startMatch = function(secret, cb, chosenBot, url){
     if(!url) url = "gorgony.nl";
 
-    const ws = new WebSocket(`ws://${url}:5000/MostSnake/Player?secret=${secret}&opponent=${chosenBot}`);
+    const ws = new WebSocket(`ws://${url}:25587/MostSnake/Player?secret=${secret}&opponent=${chosenBot}`);
 
     ws.on('open', function open() {
         console.log("Connection made");

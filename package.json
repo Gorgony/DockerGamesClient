@@ -6,6 +6,6 @@
   "main": "DockerGamesClient.js",
   "license": "ISC",
   "dependencies": {
-    "ws": "^5.2.2"
+    "ws": "^7.4.6"
   }
 }
